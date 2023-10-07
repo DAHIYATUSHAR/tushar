@@ -1,0 +1,609 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+   position: relative;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    width:100%;
+}
+
+.plus{
+    color: yellow;
+    font-weight: 900;
+}
+
+p{
+    margin-left: 37px;
+}
+.logo{
+    font-size: 14px;
+}
+.logo p{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    top: 2px;
+}
+
+.search {
+    background-color:#f0f5ff;
+    padding: 9px ;
+    width: 550px;
+    margin: 0px 35px;
+    border-radius: 5px;
+}
+
+.search input{
+    background-color: #f0f5ff;
+    width: 380px;
+   border: none;
+   outline: none;
+    font-size: 18px;
+}
+.right{
+    margin-left: 81px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    
+}
+.q{
+   text-align: center;
+   
+   margin-top: 10px;
+
+}
+.q a{
+    color: #000;
+     text-decoration: none;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.middle{
+    margin-left: 40px;
+    padding: 1px 6px;
+    display: flex;
+    text-align: center;
+    border-radius: 9px;
+    background-color: white;
+
+}
+
+.btn{
+    padding: 7px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: center;
+}
+
+.middle:hover{
+    background-color: #2a55e5;
+}
+
+.btn:hover{
+    background-color: #2a55e5;
+    color: white;
+}
+
+.left{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.r{
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.end{
+    display: flex;
+    
+    margin-left: 80px;
+}
+
+
+.main{
+    
+    width: 100%;
+}
+
+.container{
+    background-color: white;
+    
+    width: 1370px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.slider img{
+    display: block;
+    margin: auto;
+}
+.slider{
+    background-color: white;
+    height: 265px;
+    /* width: 100%; */
+    overflow: hidden;
+     margin: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+ /* .Img1{
+    transform: translate(-8vw);
+     animation: slide1 1s  2s forwards;
+} */
+
+ /* .Img2{
+    transform: translate(0vw);
+    animation: slide2 1s  2s forwards;
+} */
+
+ /* .Img3{
+    transform: translate(8vw);
+    animation: slide3 1s  2s forwards;
+}  
+
+.Img4{
+    transform: translate(8vw);
+    animation: slide4 1s  2s forwards;
+}  
+
+.Img5{
+    transform: translate(8vw);
+    animation: slide5 1s  2s forwards;
+}  
+
+.Img6{
+    transform: translate(8vw);
+    animation: slide6 1s  2s forwards;
+}  
+
+.Img7{
+    transform: translate(8vw);
+    animation: slide7 1s  2s forwards;
+}   */
+
+
+ /* @keyframes slide1{
+    0% {
+        transform: translate(-8vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+}
+
+  @keyframes slide2{
+    0% {
+        transform: translate(0vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+} */
+
+ /* @keyframes slide3{
+    0% {
+        transform: translate(8vw);
+    }
+    100%{
+        transform: translate(118vw);
+    }
+}  
+
+@keyframes slide4{
+    0% {
+        transform: translate(8vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+}
+
+@keyframes slide5{
+    0% {
+        transform: translate(8vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+}
+
+@keyframes slide6{
+    0% {
+        transform: translate(8vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+}
+
+@keyframes slide7{
+    0% {
+        transform: translate(8vw);
+    }
+    100%{
+        transform: translate(108vw);
+    }
+} */
+
+
+.MIDDLE{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.upper{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.lower{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.MIDDLE{
+    cursor: pointer;
+    transition: .3s;
+}
+.MIDDLE:hover{
+    transform:scale(0.9);
+}
+
+.pic1{
+    cursor: pointer;
+    transition: .3s;
+}
+.pic1:hover{
+    transform:scale(1.3);
+}
+
+.pic2{
+    cursor: pointer;
+    transition: .3s;
+}
+.pic2:hover{
+    transform:scale(1.3);
+}
+
+.pic3{
+    cursor: pointer;
+    transition: .3s;
+}
+.pic3:hover{
+    transform:scale(1.3);
+}
+
+.pic4{
+    cursor: pointer;
+    transition: .3s;
+}
+.pic4:hover{
+    transform:scale(1.3);
+}
+
+.pic5{
+    cursor: pointer;
+    transition: .3s;
+}
+.pic5:hover{
+    transform:scale(1.3);
+}
+
+
+.MIDDLe{
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    width: 100%;
+    height: 250px;
+}
+
+.uppeR{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.loweR{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.MIDDLe{
+    cursor: pointer;
+    transition: .3s;
+}
+.MIDDLe:hover{
+    transform:scale(0.9);
+}
+
+.MIDDlE{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.uppER{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.lowER{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.MIDDlE{
+    cursor: pointer;
+    transition: .3s;
+}
+.MIDDlE:hover{
+    transform:scale(0.9);
+}
+
+.O{
+    color: green;
+}
+
+.MIDdLe{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.UppeR{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.loWeR{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.MIDdLe{
+    cursor: pointer;
+    transition: .3s;
+}
+.MIDdLe:hover{
+    transform:scale(0.9);
+}
+
+.containeR{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: #212121;
+    padding: 70px 0px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color:gray;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5s;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+
+.a{
+    cursor: pointer;
+    transition: .2s;
+}
+.a:hover{
+    transform:scale(1.2);
+}
+
+.b{
+    cursor: pointer;
+    transition: .2s;
+}
+.b:hover{
+    transform:scale(1.2);
+}
+
+.c{
+    cursor: pointer;
+    transition: .2s;
+}
+.c:hover{
+    transform:scale(1.2);
+}
+
+.e{
+    cursor: pointer;
+    transition: .2s;
+}
+.e:hover{
+    transform:scale(1.2);
+}
+
+.f{
+    cursor: pointer;
+    transition: .2s;
+}
+.f:hover{
+    transform:scale(1.2);
+}
+
+.g{
+    cursor: pointer;
+    transition: .2s;
+}
+.g:hover{
+    transform:scale(1.2);
+}
+
+.h{
+    cursor: pointer;
+    transition: .2s;
+}
+.h:hover{
+    transform:scale(1.2);
+}
+
+.i{
+    cursor: pointer;
+    transition: .2s;
+}
+.i:hover{
+    transform:scale(1.2);
+}
+
+.j{
+    cursor: pointer;
+    transition: .2s;
+}
+.j:hover{
+    transform:scale(1.2);
+}
+
